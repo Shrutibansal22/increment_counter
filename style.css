@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2b3f68;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-group {
+    display: flex;
+}
+
+.counter-container {
+    text-align: center;
+    margin: 60px;
+    padding: 60px;
+    background-color: #2a364f;
+    border-radius: 10px;
+    display: inline-block;
+}
+.counter-container i {
+    color: #3498db;
+}
+.counter {
+    font-size: 4em;
+    font-weight: bold;
+    color: #f8b627;
+    margin: 10px 0;
+}
+
+span {
+    font-size: 1.2em;
+    color: #ffffff;
+}
